@@ -11,7 +11,7 @@ Works much like [Node.js - util.inspect](https://nodejs.org/api/util.html#utilin
 
 ## Features
 
-- 🚀 Super tiny (`~1.9kB` gzipped) with no dependencies
+- 🚀 Super tiny (`~1.5kB` gzipped) with no dependencies
 - 📦 Works in browsers, Node.js, and other environments
 - 🎩 Modern implementation
 - 💪🏻 Full TypeScript support
