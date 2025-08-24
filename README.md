@@ -59,6 +59,13 @@ interface InspectOptions {
 }
 ```
 
+## Thanks
+
+❤️ This library is mainly based on (or a fork implementation of) these excellent projects:
+
+- [stringify-object](https://github.com/sindresorhus/stringify-object) by [Sindre Sorhus](https://github.com/sindresorhus)
+- [consola](https://github.com/unjs/consola) by [Pooya Parsa](https://github.com/pi0)
+
 ## License
 
 ❤️ [MIT](./LICENSE) © [Kricsleo](https://github.com/kricsleo)
