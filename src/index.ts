@@ -14,7 +14,7 @@ interface InspectOptions {
   filter?: (obj: any, prop: string | number | symbol) => boolean
 
   /**
-   * Customize the stringified value of the object.
+   * Customize specific value's stringified result.
    */
   transform?: (obj: any, prop: string | number | symbol, stringified: string) => string
 }

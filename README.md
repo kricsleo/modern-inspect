@@ -5,9 +5,9 @@
 [![npm](https://img.shields.io/bundlephobia/minzip/modern-inspect?style=flat&colorA=18181B&colorB=F0DB4F)](https://bundlephobia.com/package/modern-inspect)
 [![npm](https://img.shields.io/github/license/kricsleo/modern-inspect.svg?style=flat&colorA=18181B&colorB=F0DB4F)](https://github.com/kricsleo/modern-inspect/blob/master/LICENSE)
 
-A modern lib to format any value into string representations.
+A modern library to format any value into a string representation.
 
-Works much like [Node.js - util.inspect](https://nodejs.org/api/util.html#utilinspectobject-options), but without relying on the Node.js runtime. It's useful for displaying (inspecting) any value in the terminal or formatting it as plain text for logs.
+Works much like [Node.js - util.inspect](https://nodejs.org/api/util.html#utilinspectobject-options), but without relying on the Node.js runtime. It's usually intended for debugging (displaying) any value in the terminal console or formatting it as plain text for logs.
 
 ## Features
 
@@ -53,7 +53,7 @@ interface InspectOptions {
   filter?: (obj: any, prop: string | number | symbol) => boolean
 
   /**
-   * Customize the stringified value of the object.
+   * Customize specific value's stringified result.
    */
   transform?: (obj: any, prop: string | number | symbol, stringified: string) => string
 }
@@ -61,7 +61,7 @@ interface InspectOptions {
 
 ## Thanks
 
-❤️ This library is mainly based on (or a fork implementation of) these excellent projects:
+💚 This library is mainly based on (or a fork implementation of) these excellent projects:
 
 - [stringify-object](https://github.com/sindresorhus/stringify-object) by [Sindre Sorhus](https://github.com/sindresorhus)
 - [consola](https://github.com/unjs/consola) by [Pooya Parsa](https://github.com/pi0)
