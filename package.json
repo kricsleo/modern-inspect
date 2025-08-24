@@ -1,0 +1,60 @@
+{
+  "name": "modern-inspect",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@10.15.0",
+  "description": "Modern way to format any value into string representations.",
+  "author": "Kricsleo <kricsleo@163.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/kricsleo/modern-inspect#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kricsleo/modern-inspect.git"
+  },
+  "keywords": [
+    "inspect",
+    "stringify",
+    "pretty",
+    "log"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "prepublishOnly": "npm run build",
+    "release": "bumpp && npm publish",
+    "test": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.2.1",
+    "@types/node": "^18.19.123",
+    "ansi-regex": "^6.2.0",
+    "bumpp": "^10.2.3",
+    "eslint": "^9.33.0",
+    "tsdown": "^0.14.1",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
