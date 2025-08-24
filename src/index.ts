@@ -245,14 +245,14 @@ function inspectError(error: Error): string {
 
   function _inspectError(error: Error, level = 0): string {
     const title = `${error.constructor.name || 'Error'}(${error.message})`;
-    const indent = '  '.repeat(level + 1);
+    const indent = '  '.repeat(level);
     const causedPrefix = level > 0 ? `${indent}[cause]: ` : '';
     const causedError = error.cause
       ? `\n${_inspectError(error.cause as Error, level + 1)}`
       : '';
     const stack = inspectErrorStack(error, level);
 
-    return `${causedPrefix + title}\n${stack}${causedError}`;
+    return `${causedPrefix}${title}\n${stack}${causedError}`;
   }
 }
 

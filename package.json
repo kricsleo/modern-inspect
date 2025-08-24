@@ -15,6 +15,7 @@
     "inspect",
     "stringify",
     "pretty",
+    "console",
     "log"
   ],
   "sideEffects": false,
@@ -43,7 +44,7 @@
     "build": "tsdown",
     "prepublishOnly": "npm run build",
     "release": "bumpp && npm publish",
-    "test": "vitest",
+    "test": "vitest -u",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
