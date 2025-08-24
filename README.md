@@ -50,12 +50,12 @@ interface InspectOptions {
   /**
    * Filter out specific properties from the object.
    */
-  filter?: (obj: any, prop: string | number) => boolean
+  filter?: (obj: any, prop: string | number | symbol) => boolean
 
   /**
    * Customize the stringified value of the object.
    */
-  transform?: (obj: any, prop: string | number, stringified: string) => string
+  transform?: (obj: any, prop: string | number | symbol, stringified: string) => string
 }
 ```
 
