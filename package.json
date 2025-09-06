@@ -2,7 +2,7 @@
   "name": "modern-inspect",
   "type": "module",
   "version": "0.0.2",
-  "packageManager": "pnpm@10.15.0",
+  "packageManager": "pnpm@10.15.1",
   "description": "Modern way to format any value into string representations.",
   "author": "Kricsleo <kricsleo@163.com>",
   "license": "MIT",
@@ -49,12 +49,12 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.2.1",
-    "@types/node": "^18.19.123",
+    "@antfu/eslint-config": "^5.2.2",
+    "@types/node": "^18.19.124",
     "ansi-regex": "^6.2.0",
     "bumpp": "^10.2.3",
-    "eslint": "^9.33.0",
-    "tsdown": "^0.14.1",
+    "eslint": "^9.35.0",
+    "tsdown": "^0.14.2",
     "typescript": "^5.9.2",
     "vitest": "^3.2.4"
   }
