@@ -1,7 +1,7 @@
 {
   "name": "modern-inspect",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packageManager": "pnpm@10.20.0",
   "description": "Modern way to format any value into string representations.",
   "author": "Kricsleo <kricsleo@163.com>",
