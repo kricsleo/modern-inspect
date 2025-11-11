@@ -2,7 +2,7 @@
   "name": "modern-inspect",
   "type": "module",
   "version": "0.0.3",
-  "packageManager": "pnpm@10.20.0",
+  "packageManager": "pnpm@10.21.0",
   "description": "Modern way to format any value into string representations.",
   "author": "Kricsleo <kricsleo@163.com>",
   "license": "MIT",
@@ -53,7 +53,7 @@
     "ansi-regex": "^6.2.2",
     "bumpp": "^10.3.1",
     "eslint": "^9.39.1",
-    "tsdown": "^0.16.1",
+    "tsdown": "^0.16.2",
     "typescript": "^5.9.3",
     "vitest": "^4.0.8"
   }
